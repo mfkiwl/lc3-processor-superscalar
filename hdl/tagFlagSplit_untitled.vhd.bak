@@ -1,0 +1,46 @@
+--
+-- VHDL Architecture ece411.tagFlagSplit.untitled
+--
+-- Created:
+--          by - page10.ews (dcl-l440-03.ews.illinois.edu)
+--          at - 15:47:35 02/21/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY tagFlagSplit IS
+   PORT( 
+      tagAndFlags : IN     LC3B_OWORD;
+      tag0        : OUT    LC3B_C_TAG;
+      dirty0      : OUT    std_logic;
+      valid0      : out    std_logic;
+      tag1        : OUT    LC3B_C_TAG;
+      dirty1      : out    std_logic;
+      valid1      : out    std_logic;
+      lru         : out    std_logic
+   );
+
+-- Declarations
+
+END tagFlagSplit ;
+
+--
+ARCHITECTURE untitled OF tagFlagSplit IS
+BEGIN
+  tag0<=tagAndFlags(8 downto 0);
+  dirty0<=tagAndFlags(9);
+  valid0<=tagAndFlags(10);
+  tag1<=tagAndFlags(19 downto 11);
+  dirty1<=tagAndFlags(20);
+  valid1<=tagAndFlags(21);
+  
+  lru<=tagAndFlags(22);-- after 5ns;
+  
+END ARCHITECTURE untitled;
+

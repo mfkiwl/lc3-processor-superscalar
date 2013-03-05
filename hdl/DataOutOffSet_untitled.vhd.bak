@@ -1,0 +1,49 @@
+--
+-- VHDL Architecture ece411.DataOutOffSet.untitled
+--
+-- Created:
+--          by - page10.ews (dcl-l440-03.ews.illinois.edu)
+--          at - 16:27:02 02/21/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY DataOutOffSet IS
+   PORT( 
+      DataOut        : IN     LC3B_WORD;
+      MWRITEH_L      : IN     std_logic;
+      MWRITEL_L      : IN     std_logic;
+      data           : IN     LC3B_OWORD;
+      offsetIntoLine : IN     LC3B_C_OFFSET;
+      FixedDataOut   : OUT    LC3B_OWORD
+   );
+
+-- Declarations
+
+END DataOutOffSet ;
+
+--
+ARCHITECTURE untitled OF DataOutOffSet IS
+BEGIN
+  PROCESS (data, DataOut, offsetIntoLine,MWRITEL_L, MWRITEH_L)
+  variable state : LC3B_OWORD;
+BEGIN
+  state:=data;
+  if(MWRITEL_L='0' and MWRITEH_L='0')then
+    state((15+8*To_integer(unsigned(offsetIntoLine))) DOWNTO (8+8*To_integer(unsigned(offsetIntoLine)))):=DataOut(15 downto 8);
+    state((7+8*To_integer(unsigned(offsetIntoLine))) DOWNTO (8*To_integer(unsigned(offsetIntoLine)))):=DataOut(7 downto 0); 
+  elsif(MWRITEH_L='0')then
+    state((15+8*To_integer(unsigned(offsetIntoLine))) DOWNTO (8+8*To_integer(unsigned(offsetIntoLine)))):=DataOut(15 downto 8);
+  elsif(MWRITEL_L='0') then
+   state((7+8*To_integer(unsigned(offsetIntoLine))) DOWNTO (0+8*To_integer(unsigned(offsetIntoLine)))):=DataOut(7 downto 0);  
+  end if;
+   FixedDataOut<=state after DELAY_LOGIC4; 
+END PROCESS;
+END ARCHITECTURE untitled;
+

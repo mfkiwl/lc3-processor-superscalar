@@ -1,0 +1,36 @@
+--
+-- VHDL Architecture ece411.Miss.untitled
+--
+-- Created:
+--          by - page10.ews (gelib-057-34.ews.illinois.edu)
+--          at - 19:09:57 02/28/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY Miss IS
+   PORT( 
+      dirty0    : IN     std_logic;
+      dirtying  : IN     std_logic;
+      dout      : IN     std_logic;
+      tag0      : IN     LC3B_C_TAG;
+      valid0    : IN     std_logic;
+      wantedTag : IN     LC3B_C_TAG;
+      A         : OUT    LC3B_OWORD
+   );
+
+-- Declarations
+
+END Miss ;
+
+--
+ARCHITECTURE untitled OF Miss IS
+BEGIN
+END ARCHITECTURE untitled;
+

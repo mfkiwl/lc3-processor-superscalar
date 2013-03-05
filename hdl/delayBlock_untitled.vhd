@@ -1,0 +1,32 @@
+--
+-- VHDL Architecture ece411.delayBlock.untitled
+--
+-- Created:
+--          by - page10.ews (gelib-057-11.ews.illinois.edu)
+--          at - 00:41:57 03/01/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY delayBlock IS
+   PORT( 
+      wantedTag : IN     LC3B_C_TAG;
+      LagTag    : OUT    LC3B_C_TAG
+   );
+
+-- Declarations
+
+END delayBlock ;
+
+--
+ARCHITECTURE untitled OF delayBlock IS
+BEGIN
+  LagTag<=wantedTag after DELAY_256B;
+END ARCHITECTURE untitled;
+
