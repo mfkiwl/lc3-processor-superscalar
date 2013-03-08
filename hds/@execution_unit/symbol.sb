@@ -25,6 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
+suid 2,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -342,23 +343,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/page10/ece411/mp3/hdl"
+value "/home/mandozz2/ece411/mp3/ece411/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/page10/ece411/mp3/hds"
+value "/home/mandozz2/ece411/mp3/ece411/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/page10/ece411/mp3/hds/@execution_unit/interface.info"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@execution_unit/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/page10/ece411/mp3/hds/@execution_unit/interface.user"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@execution_unit/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/page10/ece411/mp3/hds"
+value "/home/mandozz2/ece411/mp3/ece411/hds"
 )
 (vvPair
 variable "appl"
@@ -366,7 +367,7 @@ value "HDL Designer"
 )
 (vvPair
 variable "arch_name"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "config"
@@ -374,27 +375,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/page10/ece411/mp3/hds/@execution_unit"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@execution_unit"
 )
 (vvPair
 variable "d_logical"
-value "/home/page10/ece411/mp3/hds/Execution_unit"
+value "/home/mandozz2/ece411/mp3/ece411/hds/Execution_unit"
 )
 (vvPair
 variable "date"
-value "03/07/13"
+value "03/08/13"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "07"
+value "08"
 )
 (vvPair
 variable "entity_name"
@@ -406,15 +407,15 @@ value "<TBD>"
 )
 (vvPair
 variable "f"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_logical"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_noext"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "group"
@@ -422,7 +423,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-20.ews.illinois.edu"
+value "evrt-252-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -454,11 +455,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/page10/ece411/mp3/hds/@execution_unit/interface"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@execution_unit/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/page10/ece411/mp3/hds/Execution_unit/interface"
+value "/home/mandozz2/ece411/mp3/ece411/hds/Execution_unit/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -502,19 +503,19 @@ value "<TBD>"
 )
 (vvPair
 variable "this_ext"
-value "<TBD>"
+value "sb"
 )
 (vvPair
 variable "this_file"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "this_file_logical"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "time"
-value "16:03:10"
+value "14:14:52"
 )
 (vvPair
 variable "unit"
@@ -522,7 +523,7 @@ value "Execution_unit"
 )
 (vvPair
 variable "user"
-value "page10"
+value "mandozz2"
 )
 (vvPair
 variable "version"
@@ -530,7 +531,7 @@ value "2012.1 (Build 6)"
 )
 (vvPair
 variable "view"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "year"
@@ -631,7 +632,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,44700,50950"
+xt "32200,50050,45700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -917,7 +918,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,49050,48200,49950"
+xt "32200,49050,46700,49950"
 st "
 %library/%unit/%view
 "
@@ -1256,6 +1257,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 107,0
+lastUid 167,0
 activeModelName "Symbol:CDM"
 )

@@ -319,23 +319,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/page10/ece411/mp2/hdl"
+value "/home/mandozz2/ece411/mp3/ece411/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/page10/ece411/mp2/hds"
+value "/home/mandozz2/ece411/mp3/ece411/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/page10/ece411/mp2/hds/@datapath/struct.bd.info"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@datapath/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/page10/ece411/mp2/hds/@datapath/struct.bd.user"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@datapath/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/page10/ece411/mp2/hds"
+value "/home/mandozz2/ece411/mp3/ece411/hds"
 )
 (vvPair
 variable "appl"
@@ -351,27 +351,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/page10/ece411/mp2/hds/@datapath"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@datapath"
 )
 (vvPair
 variable "d_logical"
-value "/home/page10/ece411/mp2/hds/Datapath"
+value "/home/mandozz2/ece411/mp3/ece411/hds/Datapath"
 )
 (vvPair
 variable "date"
-value "02/06/13"
+value "03/08/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "06"
+value "08"
 )
 (vvPair
 variable "entity_name"
@@ -399,7 +399,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-25.ews.illinois.edu"
+value "evrt-252-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -419,7 +419,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -427,19 +427,19 @@ value "Datapath"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "Mar"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "March"
 )
 (vvPair
 variable "p"
-value "/home/page10/ece411/mp2/hds/@datapath/struct.bd"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@datapath/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/page10/ece411/mp2/hds/Datapath/struct.bd"
+value "/home/mandozz2/ece411/mp3/ece411/hds/Datapath/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -447,7 +447,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "ece411"
+value "ece411_mp3"
 )
 (vvPair
 variable "series"
@@ -495,7 +495,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:54:31"
+value "14:20:04"
 )
 (vvPair
 variable "unit"
@@ -503,7 +503,7 @@ value "Datapath"
 )
 (vvPair
 variable "user"
-value "page10"
+value "mandozz2"
 )
 (vvPair
 variable "version"
@@ -6208,16 +6208,16 @@ optionalChildren [
 uid 6984,0
 sl 0
 ro 270
-xt "68000,30625,69500,31375"
+xt "73000,30625,74500,31375"
 )
 (Line
 uid 6985,0
 sl 0
 ro 270
-xt "69500,31000,70000,31000"
+xt "74500,31000,75000,31000"
 pts [
-"69500,31000"
-"70000,31000"
+"74500,31000"
+"75000,31000"
 ]
 )
 ]
@@ -6233,10 +6233,10 @@ uid 6987,0
 va (VaSet
 font "courier,8,0"
 )
-xt "62500,30550,67000,31450"
+xt "67500,30550,72000,31450"
 st "ALUMuxSel"
 ju 2
-blo "67000,31250"
+blo "72000,31250"
 tm "WireNameMgr"
 )
 )
@@ -10819,9 +10819,9 @@ uid 3832,0
 va (VaSet
 vasetType 3
 )
-xt "70000,31000,76000,34842"
+xt "75000,31000,76000,34842"
 pts [
-"70000,31000"
+"75000,31000"
 "76000,31000"
 "76000,34842"
 ]
@@ -10845,9 +10845,9 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "70000,30100,74500,31000"
+xt "75000,30100,79500,31000"
 st "ALUMuxSel"
-blo "70000,30800"
+blo "75000,30800"
 tm "WireNameMgr"
 )
 )
@@ -12601,8 +12601,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,25,1686,1029"
-viewArea "20559,18776,111049,71814"
+windowSize "-6,28,1686,1032"
+viewArea "12770,3836,97972,53774"
 cachedDiagramExtent "-8000,0,130500,89000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "lpr -gelib-057-color"
@@ -12627,7 +12627,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-77000,-51000"
-lastUid 9681,0
+lastUid 9874,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

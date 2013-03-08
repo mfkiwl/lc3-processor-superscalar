@@ -903,23 +903,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/page10/ece411/mp2/hdl"
+value "/home/mandozz2/ece411/mp3/ece411/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/page10/ece411/mp2/hds"
+value "/home/mandozz2/ece411/mp3/ece411/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/page10/ece411/mp2/hds/@datapath/interface.info"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@datapath/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/page10/ece411/mp2/hds/@datapath/interface.user"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@datapath/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/page10/ece411/mp2/hds"
+value "/home/mandozz2/ece411/mp3/ece411/hds"
 )
 (vvPair
 variable "appl"
@@ -935,27 +935,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/page10/ece411/mp2/hds/@datapath"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@datapath"
 )
 (vvPair
 variable "d_logical"
-value "/home/page10/ece411/mp2/hds/Datapath"
+value "/home/mandozz2/ece411/mp3/ece411/hds/Datapath"
 )
 (vvPair
 variable "date"
-value "02/06/13"
+value "03/08/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "06"
+value "08"
 )
 (vvPair
 variable "entity_name"
@@ -983,7 +983,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-25.ews.illinois.edu"
+value "evrt-252-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -1003,7 +1003,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -1011,19 +1011,19 @@ value "Datapath"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "Mar"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "March"
 )
 (vvPair
 variable "p"
-value "/home/page10/ece411/mp2/hds/@datapath/interface"
+value "/home/mandozz2/ece411/mp3/ece411/hds/@datapath/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/page10/ece411/mp2/hds/Datapath/interface"
+value "/home/mandozz2/ece411/mp3/ece411/hds/Datapath/interface"
 )
 (vvPair
 variable "package_name"
@@ -1031,7 +1031,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "ece411"
+value "ece411_mp3"
 )
 (vvPair
 variable "series"
@@ -1079,7 +1079,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:54:31"
+value "14:20:04"
 )
 (vvPair
 variable "unit"
@@ -1087,7 +1087,7 @@ value "Datapath"
 )
 (vvPair
 variable "user"
-value "page10"
+value "mandozz2"
 )
 (vvPair
 variable "version"
@@ -3261,7 +3261,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 10608,0
+lastUid 10631,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"
