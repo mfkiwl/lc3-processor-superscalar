@@ -25,7 +25,6 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 5,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -351,11 +350,11 @@ value "/home/page10/ece411/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/page10/ece411/mp3/hds/execute/interface.info"
+value "/home/page10/ece411/mp3/hds/@execution_unit/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/page10/ece411/mp3/hds/execute/interface.user"
+value "/home/page10/ece411/mp3/hds/@execution_unit/interface.user"
 )
 (vvPair
 variable "SourceDir"
@@ -375,11 +374,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/page10/ece411/mp3/hds/execute"
+value "/home/page10/ece411/mp3/hds/@execution_unit"
 )
 (vvPair
 variable "d_logical"
-value "/home/page10/ece411/mp3/hds/execute"
+value "/home/page10/ece411/mp3/hds/Execution_unit"
 )
 (vvPair
 variable "date"
@@ -399,7 +398,7 @@ value "07"
 )
 (vvPair
 variable "entity_name"
-value "execute"
+value "Execution_unit"
 )
 (vvPair
 variable "ext"
@@ -423,7 +422,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0220-15.ews.illinois.edu"
+value "evrt-252-20.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -443,7 +442,7 @@ value "03"
 )
 (vvPair
 variable "module_name"
-value "execute"
+value "Execution_unit"
 )
 (vvPair
 variable "month"
@@ -455,11 +454,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/page10/ece411/mp3/hds/execute/interface"
+value "/home/page10/ece411/mp3/hds/@execution_unit/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/page10/ece411/mp3/hds/execute/interface"
+value "/home/page10/ece411/mp3/hds/Execution_unit/interface"
 )
 (vvPair
 variable "package_name"
@@ -515,11 +514,11 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "22:17:09"
+value "16:03:10"
 )
 (vvPair
 variable "unit"
-value "execute"
+value "Execution_unit"
 )
 (vvPair
 variable "user"
@@ -556,7 +555,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,23000,16000"
+xt "15000,6000,26000,16000"
 )
 biTextGroup (BiTextGroup
 uid 10,0
@@ -567,18 +566,18 @@ uid 11,0
 va (VaSet
 font "courier,8,1"
 )
-xt "17250,10100,20250,11000"
+xt "16750,10100,19750,11000"
 st "ece411"
-blo "17250,10800"
+blo "16750,10800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "courier,8,1"
 )
-xt "17250,11000,20750,11900"
-st "execute"
-blo "17250,11700"
+xt "16750,11000,24250,11900"
+st "Execution_unit"
+blo "16750,11700"
 )
 )
 gi *52 (GenericInterface
@@ -591,7 +590,7 @@ uid 15,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-8000,7000,2500,7900"
+xt "-6500,7000,4000,7900"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -918,7 +917,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,49050,44700,49950"
+xt "32200,49050,48200,49950"
 st "
 %library/%unit/%view
 "
@@ -1067,7 +1066,7 @@ tm "PanelText"
 )
 parentGraphicsRef (HdmGraphicsRef
 libraryName "ece411"
-entityName "Execution_unit"
+entityName "DataPath_mp3"
 viewName "struct.bd"
 )
 defaultSymbolBody (SymbolBody
@@ -1257,8 +1256,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 234,0
-okToSyncOnLoad 1
-OkToSyncGenericsOnLoad 1
+lastUid 107,0
 activeModelName "Symbol:CDM"
 )
