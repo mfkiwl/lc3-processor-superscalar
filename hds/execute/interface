@@ -70,7 +70,7 @@ m 1
 decl (Decl
 n "ExeUnitOutputToExeUnitLatch"
 t "lc3b_word"
-o 64
+o 5
 suid 28,0
 )
 )
@@ -82,7 +82,7 @@ m 1
 decl (Decl
 n "InstructionFromExeUnitToExeUnitLatch"
 t "lc3b_word"
-o 62
+o 6
 suid 29,0
 )
 )
@@ -93,7 +93,7 @@ port (LogicalPort
 decl (Decl
 n "instructionToExecute"
 t "lc3b_word"
-o 37
+o 4
 suid 30,0
 )
 )
@@ -105,7 +105,7 @@ m 1
 decl (Decl
 n "ReadySignalFromExeUnitToExeUnitLatch"
 t "std_logic"
-o 62
+o 7
 suid 31,0
 )
 )
@@ -116,7 +116,7 @@ port (LogicalPort
 decl (Decl
 n "SourcesReadytoExe"
 t "std_logic"
-o 37
+o 1
 suid 32,0
 )
 )
@@ -127,7 +127,7 @@ port (LogicalPort
 decl (Decl
 n "SrcA"
 t "lc3b_word"
-o 37
+o 2
 suid 33,0
 )
 )
@@ -138,7 +138,7 @@ port (LogicalPort
 decl (Decl
 n "SrcB"
 t "lc3b_word"
-o 37
+o 3
 suid 34,0
 )
 )
@@ -637,7 +637,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "14:14:52"
+value "15:29:41"
 )
 (vvPair
 variable "unit"
@@ -713,7 +713,7 @@ m 1
 decl (Decl
 n "ExeUnitOutputToExeUnitLatch"
 t "lc3b_word"
-o 64
+o 5
 suid 28,0
 )
 )
@@ -760,7 +760,7 @@ m 1
 decl (Decl
 n "InstructionFromExeUnitToExeUnitLatch"
 t "lc3b_word"
-o 62
+o 6
 suid 29,0
 )
 )
@@ -805,7 +805,7 @@ thePort (LogicalPort
 decl (Decl
 n "instructionToExecute"
 t "lc3b_word"
-o 37
+o 4
 suid 30,0
 )
 )
@@ -852,7 +852,7 @@ m 1
 decl (Decl
 n "ReadySignalFromExeUnitToExeUnitLatch"
 t "std_logic"
-o 62
+o 7
 suid 31,0
 )
 )
@@ -897,7 +897,7 @@ thePort (LogicalPort
 decl (Decl
 n "SourcesReadytoExe"
 t "std_logic"
-o 37
+o 1
 suid 32,0
 )
 )
@@ -942,7 +942,7 @@ thePort (LogicalPort
 decl (Decl
 n "SrcA"
 t "lc3b_word"
-o 37
+o 2
 suid 33,0
 )
 )
@@ -987,7 +987,7 @@ thePort (LogicalPort
 decl (Decl
 n "SrcB"
 t "lc3b_word"
-o 37
+o 3
 suid 34,0
 )
 )
@@ -1702,7 +1702,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 552,0
+lastUid 575,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"
